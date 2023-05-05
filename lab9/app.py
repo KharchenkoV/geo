@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import rasterio
 
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/get_image_bbox', methods=['GET'])
