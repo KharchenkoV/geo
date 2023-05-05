@@ -3,6 +3,9 @@ import mapboxgl from 'mapbox-gl'
 import axios from 'axios'
 import './App.css';
 
+// source code - https://github.com/konopl1tsky1/geo_data_analisis/tree/main/lab_10%2611/mapbox-app
+
+
 mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhcmNoZW5rbyIsImEiOiJjbGd6YXJnajEwaHgzM2lxdm1veHlzcjNrIn0.UBD6rlNF2iBUOiza19hwfQ'
 
 function App() {
